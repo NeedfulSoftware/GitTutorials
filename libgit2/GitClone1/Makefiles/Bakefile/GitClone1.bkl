@@ -1,8 +1,8 @@
 toolsets = vs2017 vs2015 vs2013;
 
-vs2017.solutionfile = ../VC15/GitRepositoryClone1.sln;
-vs2015.solutionfile = ../VC14/GitRepositoryClone1.sln;
-vs2013.solutionfile = ../VC12/GitRepositoryClone1.sln;
+vs2017.solutionfile = ../VC15/GitClone1.sln;
+vs2015.solutionfile = ../VC14/GitClone1.sln;
+vs2013.solutionfile = ../VC12/GitClone1.sln;
 
 setting LIBGIT2_ROOT
 {
@@ -10,7 +10,7 @@ setting LIBGIT2_ROOT
     default = '$(LIBGIT2)';
 }
 
-program GitRepositoryClone1
+program GitClone1
 {
     archs = x86 x86_64;
 
