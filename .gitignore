@@ -1,5 +1,6 @@
 *.suo
 *.VC.db
+*.vcxproj.user
 .vs/
 Debug/
 Release/
