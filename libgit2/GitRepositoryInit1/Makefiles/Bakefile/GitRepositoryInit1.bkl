@@ -12,8 +12,10 @@ setting LIBGIT2_ROOT
 
 program GitRepositoryInit1
 {
+    archs = x86 x86_64;
+
     includedirs += $(LIBGIT2_ROOT)/include;
-    libdirs += $(LIBGIT2_ROOT)/build/$(config);
+    libdirs += $(LIBGIT2_ROOT)/$(config);
     libs += git2;
 
     sources
