@@ -4,6 +4,10 @@ This repository contains the examples for our [Git tutorials](http://www.needful
 
 ## List of examples
 
+- [GitRepositoryInit1](https://github.com/NeedfulSoftware/GitTutorials/tree/master/libgit2/GitRepositoryInit1): Example showing how to create a new local repository using git_repository_init.
+
+
+
 ## License
 
 Copyright (c) 2017-2018 Xavier Leclercq
