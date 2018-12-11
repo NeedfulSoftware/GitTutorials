@@ -1,0 +1,25 @@
+toolsets = vs2017 vs2015 vs2013;
+
+vs2017.solutionfile = ../VC15/GitRepositoryClone1.sln;
+vs2015.solutionfile = ../VC14/GitRepositoryClone1.sln;
+vs2013.solutionfile = ../VC12/GitRepositoryClone1.sln;
+
+setting LIBGIT2_ROOT
+{
+    help = "Path to the libgit2 installation";
+    default = '$(LIBGIT2)';
+}
+
+program GitRepositoryClone1
+{
+    archs = x86 x86_64;
+
+    includedirs += $(LIBGIT2_ROOT)/include;
+    libdirs += $(LIBGIT2_ROOT)/$(config);
+    libs += git2;
+
+    sources
+    {
+        ../../Source/main.cpp
+    }
+}
