@@ -1,2 +1,5 @@
+*.suo
+*.VC.db
+.vs/
 Debug/
 Release/
