@@ -1,0 +1,1 @@
+Some of the examples will need to store their output on disk somewhere. We put them in this directory.
