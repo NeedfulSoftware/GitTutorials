@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GitPull1", "GitPull1.vcxproj", "{4431346F-A32E-5E33-BA50-0B0296293319}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4431346F-A32E-5E33-BA50-0B0296293319}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4431346F-A32E-5E33-BA50-0B0296293319}.Debug|Win32.Build.0 = Debug|Win32
+		{4431346F-A32E-5E33-BA50-0B0296293319}.Debug|x64.ActiveCfg = Debug|x64
+		{4431346F-A32E-5E33-BA50-0B0296293319}.Debug|x64.Build.0 = Debug|x64
+		{4431346F-A32E-5E33-BA50-0B0296293319}.Release|Win32.ActiveCfg = Release|Win32
+		{4431346F-A32E-5E33-BA50-0B0296293319}.Release|Win32.Build.0 = Release|Win32
+		{4431346F-A32E-5E33-BA50-0B0296293319}.Release|x64.ActiveCfg = Release|x64
+		{4431346F-A32E-5E33-BA50-0B0296293319}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
