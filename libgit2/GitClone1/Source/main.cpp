@@ -36,7 +36,7 @@ int main(int argc, char* argv[])
     // This example doesn't show any progress information while
     // creating the clone. The GitClone2 example does.
     git_repository* repo = 0;
-    int err = git_clone(&repo, "https://github.com/NeedfulSoftware/GitTutorials", "Libgit2ClonedRepo1", 0);
+    int err = git_clone(&repo, "https://github.com/NeedfulSoftware/GitTutorials", "../../../../Output/Libgit2ClonedRepo1", 0);
     if (err == 0)
     {
         std::cout << "Repository cloned successfully" << std::endl;
@@ -45,7 +45,7 @@ int main(int argc, char* argv[])
     }
     else
     {
-        std::cout << "Error: git_clone failed" << std::endl;
+        std::cout << "ERROR: git_clone failed: " << giterr_last()->message << std::endl;
     }
 
     // git_libgit2_shutdown should be called
